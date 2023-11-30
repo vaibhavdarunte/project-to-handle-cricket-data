@@ -1,0 +1,16 @@
+Question 0. We don’t expect you to have any cricket knowledge and that is not a requirement to ace this assessment. But we understand that familiarity with cricket may vary from one candidate to the next so we would like to know how you would rate your knowledge of cricket from 1 to 5, where 1 is basically no knowledge (like you had never seen or read anything about the sport until the days before this assessment) and 5 is highly knowledgeable (you watch matches regularly and have a jersey for the Rajasthan Royals in your closet, for example). 
+
+ans - I would rate myself 3, I have basic knowledge and I watch cricket sometime.
+
+Question 3. Please provide a brief written answer to the following question. The coding assessment focused on a batch backfilling use case. If the use case was extended to required incrementally loading new match data on a go-forward basis, how would your solution change?
+
+ANS- In this case the problem will be to handle the large amound to data. we need something roubst data lake to store data.
+And to handle data incrementally we need some proper framework.
+
+Question 4. Can you provide an example of when, during a project or analysis, you learned about (or created) a new technique, method, or tool that you hadn’t known about previously? What inspired you to learn about this and how were you able to apply it?
+
+ans - Through this project, I've learned how to use optimization to write effective code. Additionally, I learn how to share access and connect two services. I read files in various formats, such as CSV, apply transformations, and write data into formats like Parquet and Delta. I learn to handle bad record in sql. 
+
+Question 5. What was the most time-consuming, frustrating, or confusing bug that you encountered during a project? How did it get noticed and how were you able to resolve it?
+
+ans - In my previous project, I moved code from Pentaho to Databricks, but the code was not functioning because there was no rowNumber column, which is a necessary feature in Oracle databases. There, we use the row_number window function to add a column this function assigns a number to each row.
